@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: API_TeamGE, Configuration: Debug ------
+1>C:\Program Files\dotnet\sdk\7.0.304\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets(266,5): error NETSDK1064: Package Microsoft.OpenApi, version 1.2.3 was not found. It might have been deleted since NuGet restore. Otherwise, NuGet restore might have only partially completed, which might have been due to maximum path length restrictions.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

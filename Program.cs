@@ -14,7 +14,7 @@ List<Post> PostList = new List<Post>
         Title = " Team Project",
         PublicationDate = new DateTime(2022,5,12),
         ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM2J0qTApFILdvc_6fXhMrv2Umm2CyMFurQw&usqp=CAU",
-        Content = "This is yada yada yada for our group project",
+        Content = "This is our first group project for C#",
         Approved = false,
     },
      new Post()

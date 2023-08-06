@@ -65,6 +65,72 @@ List<PostReactions> PostReactionsList = new List<PostReactions>()
     },
 };
 
+List<Comment> CommentList = new List<Comment>()
+{
+    new Comment()
+    {
+        Id = 1,
+        AuthorId = 1,
+        PostId= 1,
+        Content="They aren't even close to \"Full self driving\", yet still call it that; fraudulent advertising at best. BTW, you'll get banned on reddit for mentioning that."
+    },
+    new Comment()
+    {
+        Id = 2,
+        AuthorId = 3,
+        PostId= 5,
+        Content="Without a consumer-usable or at least visible AI assisting service in the OS, future improvements in hardware are going to be dismissed by consumers with two words: \"so what?\"."
+    },
+    new Comment()
+    {
+        Id = 3,
+        AuthorId = 2,
+        PostId= 2,
+        Content="I somewhat agree, but I’m coming around to the idea of the Action Button. I like the mute switch but my phone is on silent 99.9% of the time, so the switch is pretty much useless now."
+    },
+    new Comment()
+    {
+        Id = 4,
+        AuthorId = 4,
+        PostId= 2,
+        Content="Thanks for sharing these amazing insights!"
+    }
+};
+
+List<Category> CategoryList = new List<Category>()
+{
+    new Category()
+    {
+        Id = 1,
+        Label = "Web Development"
+    },
+    new Category()
+    {
+        Id = 2,
+        Label = "CyberSecurity"
+    },
+    new Category()
+    {
+        Id = 3,
+        Label = "AI/MachineLearning"
+    },
+    new Category()
+    {
+        Id = 4,
+        Label = "Crypto/Web3"
+    },
+    new Category()
+    {
+        Id = 5,
+        Label = "Tech Startups/Business"
+    },
+    new Category()
+    {
+        Id = 6,
+        Label = "DevOps"
+    },
+};
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
